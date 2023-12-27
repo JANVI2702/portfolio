@@ -1,0 +1,26 @@
+@media (min-width: 576px) {
+  #about {
+    position: relative !;
+  }
+  .about-body {
+    position: absolute;
+    top: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    width: var(--slidbar-width);
+    background: linear-gradient(rgb(6, 63, 71, 0.8), rgb(3, 63, 71, 0.8)),
+      url(../images/sidebar-img.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar-brand img {
+    border: 4px solid #e0f780;
+  }
+  #content-wrapper {
+    padding-left: var(--slidbar-width);
+  }
+}
